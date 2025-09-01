@@ -503,7 +503,11 @@ function Contact({ lng }) {
       <div className="max-w-6xl mx-auto px-4">
         <h2 className="text-2xl md:text-3xl font-black" style={{ color: colors.deep }}>{t.contact_title}</h2>
         <p className="mt-2 text-sm text-neutral-800 max-w-prose">{t.contact_blurb}</p>
-        <form onSubmit={(e)=>{e.preventDefault(); alert('Thanks! We\\'ll be in touch shortly.');}} className="mt-6 grid md:grid-cols-3 gap-4">
+        <form onSubmit={(e) => {
+    e.preventDefault();
+    alert("Thanks! We'll be in touch shortly.");
+  }}
+  className="mt-6 grid md:grid-cols-3 gap-4">
           <input required placeholder={t.form_name} className="rounded-xl px-4 py-3 border bg-white" style={{ borderColor: colors.sand }} />
           <input required type="email" placeholder={t.form_email} className="rounded-xl px-4 py-3 border bg-white" style={{ borderColor: colors.sand }} />
           <button className="rounded-xl px-4 py-3 text-white font-semibold" style={{ backgroundColor: colors.green }}>{t.form_submit}</button>
