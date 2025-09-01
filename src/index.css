@@ -1,0 +1,6 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Smooth fonts and a subtle paper background feel */
+body { background: #FAF7F2; }
