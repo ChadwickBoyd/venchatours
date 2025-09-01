@@ -20,7 +20,7 @@ const flagRibbon = `bg-[linear-gradient(90deg,${colors.green}33_0%,${colors.gree
 
 // --- Simple site config (edit these values only)
 // If you have live links, paste them here. If left blank, buttons will still show but use placeholders.
-const LOGO_URL = "public/logo.png"
+const LOGO_URL = "/logo.png"
 const BOOKING_URL = ""; // e.g., Calendly/Checkfront/FareHarbor booking page
 const PAYMENT_URL = ""; // e.g., Stripe Payment Link for deposits
 
